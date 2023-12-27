@@ -1,0 +1,165 @@
+.Container {
+  /* width: 1320px; */
+  width: 90rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.MinBenner {
+  background-color: #1c396a;
+  height: 80vh;
+
+  position: relative;
+}
+.Top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Title {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 4.0625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 5.6875rem */
+
+  /* width: 47.1875rem; */
+}
+.SubTitle {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem; /* 150% */
+}
+.MeetBtn {
+  padding: 0.6875rem 1.875rem;
+  align-items: center;
+
+  border-radius: 0.625rem;
+  border: none;
+  background: #ff3e3d;
+
+  color: #fafcff;
+  font-size: 1.125rem;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+
+.MainBennerRight {
+  margin-top: 8rem;
+}
+.DrMinbennerDp {
+  width: 33.25rem;
+  height: 37.1875rem;
+  flex-shrink: 0;
+}
+.Ring {
+  width: 49.5rem;
+  height: 49.5rem;
+  flex-shrink: 0;
+  border-radius: 49.5rem;
+  background: linear-gradient(179deg, #2a4572 3.65%, rgba(42, 69, 114, 0) 94.57%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Ring::after {
+  width: 40.26494rem;
+  height: 40.26494rem;
+  flex-shrink: 0;
+  border-radius: 40.26494rem;
+  background: linear-gradient(180deg, #304c78 0.05%, rgba(48, 76, 120, 0) 97.31%);
+  z-index: 2;
+}
+.Ring::before {
+  width: 31.02988rem;
+  height: 31.02988rem;
+  flex-shrink: 0;
+  border-radius: 31.02988rem;
+  background: linear-gradient(180deg, #405a86 0%, rgba(64, 90, 134, 0) 100%);
+}
+
+.Rates {
+  width: 67.375rem;
+  height: 9.0625rem;
+  flex-shrink: 0;
+  align-self: flex-end;
+  fill: #fff;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+}
+.InnerRates {
+  position: relative;
+}
+.SubRatesOuter {
+  display: flex;
+  gap: 6rem;
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+}
+.SubRates {
+  display: flex;
+}
+.Counts {
+  color: #1a3a73;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.04rem;
+}
+.CountsAbout {
+  color: #3d5783;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.025rem;
+}
+.HeartOuter {
+  width: 5.625rem;
+  height: 5.625rem;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 0.625rem;
+  background: #ffb300;
+}
+.Heart {
+  width: 3.625rem;
+  height: 3.625rem;
+  flex-shrink: 0;
+}
+
+.SmileyOuter {
+  width: 5.625rem;
+  height: 5.625rem;
+  flex-shrink: 0;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 0.625rem;
+  background: #4cd080;
+}
+.Smiley {
+  width: 3.625rem;
+  height: 3.625rem;
+  flex-shrink: 0;
+}
+
+.RatesTitle {
+  padding-left: 1rem;
+}

@@ -1,0 +1,182 @@
+.Container {
+  /* width: 1320px; */
+  width: 90rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.AboutUsOuter {
+  padding: 10rem 0;
+  display: flex;
+}
+.AboutUsImage {
+  max-width: max-content !important;
+  width: 38.125rem;
+  height: 38.125rem;
+  /* flex-shrink: 0; */
+
+  border-radius: 38.125rem;
+  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+.AboutUsImageDiv {
+  position: relative;
+}
+.Years {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.Years {
+  width: 10.8125rem;
+  height: 10.8125rem;
+  flex-shrink: 0;
+
+  background-color: #fffbfb;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.YearCount {
+  color: #ff3e3d;
+  font-family: Inter;
+  font-size: 3.375rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.0675rem;
+}
+.YearName {
+  color: #ff3e3d;
+  font-family: Inter;
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.0325rem;
+}
+
+.AboutUsInfoDiv {
+  padding-left: 2rem;
+  padding-top: 6rem;
+}
+.AboutInfoTitle {
+  color: #ff3e3d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 2.25rem */
+}
+.AboutInfoSubtitle {
+  color: #162e55;
+  font-family: Inter;
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.AboutInfoText {
+  color: #7f7f7f;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem; /* 150% */
+  padding-top: 1rem;
+}
+.AboutInfoBlog {
+  display: flex;
+  padding: 2rem 0;
+}
+.Ellipse4 {
+  width: 5.4375rem;
+  height: 5.4375rem;
+  flex-shrink: 0;
+
+  border-radius: 5.4375rem;
+  /* background: url(<path-to-image>), lightgray -0.902px 0.808px / 100% 150% no-repeat, #d9d9d9; */
+}
+.AboutInfoBlogText {
+  color: rgba(127, 127, 127, 0.58);
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 1rem;
+}
+.AboutInfoBlogBoldtext {
+  color: #1c396a;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.AboutUsBtn {
+  display: inline-flex;
+  height: 3.125rem;
+  padding: 0.6875rem 1.875rem;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+
+  border-radius: 0.625rem;
+  border: none;
+  background: #ff3e3d;
+
+  color: #fafcff;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Services {
+}
+.ServicesTitles {
+  text-align: center;
+  padding: 0 15rem;
+}
+.ServicesTitle {
+  color: #ff3e3d;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.03rem;
+}
+.ServicesSubTitle {
+  color: #162e55;
+  text-align: center;
+  font-family: Inter;
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.ServicesText {
+  color: #7f7f7f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem; /* 150% */
+
+  width: 66.875rem;
+
+  /* opacity: 0.7; */
+}
+
+.CardsOuter {
+  display: flex;
+  padding: 2.5rem 0;
+  gap: 1rem;
+}

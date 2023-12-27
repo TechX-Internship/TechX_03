@@ -1,0 +1,68 @@
+.W3 {
+  width: 333.33%;
+}
+.SCard {
+  padding: 2rem;
+  border-radius: 0.625rem;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.SCardTop {
+  display: flex;
+  align-items: center;
+}
+.SCardSymbDiv {
+  width: 5rem;
+  height: 5rem;
+  flex-shrink: 0;
+
+  border-radius: 0.625rem;
+  border: 1px solid #545f71;
+  display: grid;
+  place-items: center;
+}
+.SCardSVG {
+  width: 3.75rem;
+  height: 3.75rem;
+  flex-shrink: 0;
+}
+.SCardTitle {
+  color: #1c396a;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 1.5rem;
+}
+.SCardBody {
+}
+.SCardText {
+  color: #7f7f7f;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 2rem 0;
+}
+.SCardBtn {
+  display: inline-flex;
+  height: 3.125rem;
+  padding: 0.6875rem 1.875rem;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+
+  border-radius: 0.625rem;
+  border: 1.5px solid #1c396a;
+  background: #fff;
+
+  color: #1c396a;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
