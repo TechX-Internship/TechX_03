@@ -1,5 +1,5 @@
 .W3 {
-  width: 333.33%;
+  width: 33.33%;
 }
 .SCard {
   padding: 2rem;
@@ -29,18 +29,15 @@
 .SCardTitle {
   color: #1c396a;
   text-align: center;
-  font-family: Inter;
   font-size: 1.625rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   padding: 1.5rem;
 }
-.SCardBody {
-}
+
 .SCardText {
   color: #7f7f7f;
-  font-family: Inter;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
@@ -60,7 +57,6 @@
   background: #fff;
 
   color: #1c396a;
-  font-family: Inter;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;

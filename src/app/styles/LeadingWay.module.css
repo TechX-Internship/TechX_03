@@ -1,0 +1,118 @@
+.LeadingWayOuter {
+  /* font-family: "Inter", sans-serif; */
+
+  overflow: hidden;
+  height: 36rem;
+  flex-shrink: 0;
+
+  background: #f5fbff;
+  padding: 0.2rem 0;
+}
+.LeadingWay {
+  position: relative;
+  /* left: calc(50% - (75.375rem / 2)); */
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.RingOuter {
+  position: absolute;
+}
+.Ring {
+  width: 75.375rem;
+  height: 71.75rem;
+  flex-shrink: 0;
+
+  border-radius: 75.375rem;
+  background: linear-gradient(0deg, #e9f7ff 0%, #e9f7ff 100%);
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.Ring::after {
+  content: "";
+  width: 62.0625rem;
+  height: 62.1875rem;
+  flex-shrink: 0;
+  border-radius: 62.1875rem;
+  background: linear-gradient(0deg, #def3ff 0%, #def3ff 100%);
+  z-index: 3;
+  position: absolute;
+}
+.Ring::before {
+  content: "";
+  width: 49.625rem;
+  height: 46.5625rem;
+  flex-shrink: 0;
+  border-radius: 49.625rem;
+  background: linear-gradient(0deg, #d2efff 0%, #d2efff 100%);
+  z-index: 4;
+  position: absolute;
+}
+.LeadingWayInner {
+  text-align: center;
+  position: relative;
+  /* bottom: 0; */
+  z-index: 5;
+  padding-top: 9rem;
+
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.Title {
+  color: #1c396a;
+  text-align: center;
+  font-family: Inter;
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Medical {
+  color: #ff3e3d;
+  font-family: Inter;
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.SubTitle {
+  color: #7f7f7f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem; /* 150% */
+
+  padding: 2rem 0 4rem;
+
+  /* width: 66.875rem; */
+}
+
+.Btn {
+  display: inline-flex;
+  padding: 0.875rem 1.5rem;
+  align-items: center;
+  gap: 0.625rem;
+
+  border-radius: 0.625rem;
+
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 0.5rem;
+}
+.Btn1 {
+  background: #1c396a;
+}
+.Btn2 {
+  background: #ff3e3d;
+}

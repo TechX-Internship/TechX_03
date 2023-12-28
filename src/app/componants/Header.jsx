@@ -6,7 +6,7 @@ import NavBAr from "./NavBAr";
 
 const Header = () => {
   return (
-    <div className={styles.Container}>
+    <div className={"Container"}>
       <header className={styles.Header}>
         <Image src={LogoImage} alt="The Logo Of Hospital" />
         <NavBAr />
