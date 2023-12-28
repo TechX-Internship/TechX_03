@@ -1,0 +1,108 @@
+.FooterRed {
+  background: #ff3e3d;
+}
+.Inner {
+  padding: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.RedLeft {
+  width: 27.1875rem;
+  text-align: left;
+}
+.Title {
+  color: #fff;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.SubTitle {
+  color: #fffdfd;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.RedRight {
+  display: flex;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.InputEmail {
+  border-radius: 0.625rem;
+  background: #fff;
+
+  color: #7f7f7f;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  padding: 1rem;
+  width: 28.875rem;
+
+  height: 3.125rem;
+}
+.Btn {
+  width: 8.125rem;
+  height: 3.125rem;
+  flex-shrink: 0;
+
+  border-radius: 0.625rem;
+  background: #fff;
+
+  color: #ff3e3d;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.FooterBlue {
+  background: #1c396a;
+}
+.BlueLeft {
+  width: 27.1875rem;
+  text-align: left;
+}
+.Address {
+  color: #fff;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  width: 22.3125rem;
+}
+.SocDiv {
+  display: flex;
+  gap: 1rem;
+}
+.SocMedia {
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+}
+
+.BlueRight {
+  display: flex;
+  gap: 2rem;
+}
+.Ul {
+  color: #fff;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+.Li {
+  color: #fff;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0.3rem 0;
+}

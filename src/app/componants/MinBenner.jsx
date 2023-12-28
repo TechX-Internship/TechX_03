@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Styles from "../styles/MainBenner.module.css";
-import DrMinbennerDp from "../../../public/images/DrDp.png";
+import DrMinbennerDp from "../../../public/DrDp.png";
 
 const MinBenner = () => {
   return (

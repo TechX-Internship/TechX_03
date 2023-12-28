@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Header.module.css";
 import Image from "next/image";
-import LogoImage from "../../../public/images/logo.png";
+import LogoImage from "../../../public/logo.png";
 import NavBAr from "./NavBAr";
 
 const Header = () => {

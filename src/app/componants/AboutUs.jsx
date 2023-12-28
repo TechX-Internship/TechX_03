@@ -1,8 +1,8 @@
 import React from "react";
 import Styles from "../styles/AboutUs.module.css";
 import Image from "next/image";
-import Ellipse4 from "../../../public/images/Ellipse4.svg";
-import Ellipse from "../../../public/images/Ellipse10.png";
+import Ellipse4 from "../../../public/Ellipse4.svg";
+import Ellipse from "../../../public/Ellipse10.png";
 
 const AboutUs = () => {
   return (
