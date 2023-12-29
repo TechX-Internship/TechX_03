@@ -1,0 +1,45 @@
+.AboutVision {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+.SubTitle {
+  color: #162e55;
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.Card {
+  display: flex;
+  gap: 3rem;
+}
+
+.TitleSpan1 {
+  color: #162e55;
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.TitleSpan2 {
+  color: #ff3e3d;
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Text {
+  color: #7f7f7f;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.875rem; /* 150% */
+}
+.TextDiv {
+  width: 48.625rem;
+  padding: 2rem 0;
+  /* padding-left: 2rem; */
+}

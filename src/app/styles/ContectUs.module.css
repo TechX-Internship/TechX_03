@@ -1,0 +1,56 @@
+.ContectUsInner {
+  padding: 6rem;
+  margin: 6rem 0;
+  border-radius: 0.625rem;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+}
+.Titles {
+  text-align: center;
+  padding: 0 15rem;
+  padding-bottom: 2rem;
+}
+.Title {
+  color: #ff3e3d;
+  text-align: center;
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Text {
+  color: #a4a4a4;
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.0225rem;
+}
+
+.Form {
+}
+.Input {
+  width: 100%;
+  outline: none;
+  flex-shrink: 0;
+  padding: 1rem;
+
+  border-radius: 0.3125rem;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+}
+
+.SubTitle {
+  color: #1c396a;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.AddressDiv {
+  padding-left: 5rem;
+}
+.Address {
+  padding-bottom: 2rem;
+}
