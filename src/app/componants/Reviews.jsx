@@ -17,8 +17,8 @@ const Reviews = () => {
         </div>
         <div className="row py-5">
           <ReviewsCard />
-          {/* <ReviewsCard /> */}
-          {/* <ReviewsCard /> */}
+          <ReviewsCard />
+          <ReviewsCard />
         </div>
         <Button BtnName="View More" />
       </div>

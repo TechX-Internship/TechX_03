@@ -6,7 +6,7 @@ import { BlueBtn } from "./Button";
 
 const ServicesCard = ({ title }) => {
   return (
-    <div className="col-lg-3 ">
+    <div className="col-lg-4">
       <div className={Styles.SCard}>
         <ServicesSvg title={title} />
         <div className="text-center">

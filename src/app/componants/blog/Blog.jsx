@@ -17,8 +17,8 @@ const Blog = () => {
         </div>
         <div className="row w-100 ps-3">
           <BlogCard />
-          {/* <BlogCard /> */}
-          {/* <BlogCard /> */}
+          <BlogCard />
+          <BlogCard />
         </div>
         <Button BtnName="View More" />
         {/* <button className={Styles.Btn}>Read More</button> */}

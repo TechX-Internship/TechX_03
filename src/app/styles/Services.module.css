@@ -57,4 +57,7 @@
     line-height: 1.875rem;
     text-align: left;
   }
+  .CardsOuter {
+    gap: 0;
+  }
 }

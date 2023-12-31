@@ -9,7 +9,7 @@ import Img4 from "../../../public/Expert4.png";
 
 const ExpertsCard = () => {
   return (
-    <div className={`col-9 col-lg-3 text-center`}>
+    <div className={` col-lg-3 text-center`}>
       <div className={`${Styles.Card}`}>
         <Image src={Img1} alt="" />
 

@@ -16,9 +16,9 @@ const Experts = () => {
         </div>
         <div className="row py-2 py-lg-0 w-100 justify-content-center">
           <ExpertsCard />
-          {/* <ExpertsCard /> */}
-          {/* <ExpertsCard /> */}
-          {/* <ExpertsCard /> */}
+          <ExpertsCard />
+          <ExpertsCard />
+          <ExpertsCard />
         </div>
         <button className={Styles.Btn}>View More</button>
       </div>

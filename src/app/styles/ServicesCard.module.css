@@ -49,6 +49,9 @@
 
 @media (min-width: 992px) {
   .SCard {
+    /* width: 13.8125rem; */
+
+    margin: 0 0;
     width: auto;
   }
   .SCardText {

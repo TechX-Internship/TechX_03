@@ -1,15 +1,17 @@
 .TeamInner {
-  padding: 6rem 0;
+  padding: 6rem 1rem;
 }
 
 .Titles {
   text-align: center;
-  padding: 0 15rem;
+  padding: 0 1rem;
   padding-bottom: 2rem;
 }
 .Title {
   color: #ff3e3d;
-  font-size: 1.5rem;
+
+  font-size: 0.875rem;
+  /* font-size: 1.5rem; */
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -18,7 +20,8 @@
 }
 .SubTitle {
   color: #162e55;
-  font-size: 2.75rem;
+  font-size: 1.25rem;
+  /* font-size: 2.75rem; */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -27,10 +30,11 @@
 .Text {
   color: #7f7f7f;
   text-align: left;
-  font-size: 1.25rem;
+  font-size: 0.875rem;
+  /* font-size: 1.25rem; */
   font-style: normal;
   font-weight: 400;
-  line-height: 1.875rem;
+  line-height: normal;
 }
 .TextTitle {
   color: #1c396a;
@@ -61,4 +65,26 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+@media (min-width: 992px) {
+  .Titles {
+    padding: 0 15rem;
+  }
+  .Title {
+    font-size: 1.5rem;
+  }
+  .SubTitle {
+    font-size: 2.75rem;
+  }
+  .Text {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+  .CardDiv {
+    margin: 3rem;
+  }
+  .TeamInner {
+    padding: 6rem 0;
+  }
 }

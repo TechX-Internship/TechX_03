@@ -17,7 +17,7 @@ const MainBenner = () => {
             <div className=" col-12 col-lg-5 pe-0 pe-lg-2 d-flex align-center justify-center">
               <div className={Styles.MainBennerLeft}>
                 <h1 className={`${Styles.Title} `}>Dedicated to Hope, Healing & Recovery</h1>
-                <p className={`${Styles.SubTitle} text-sm font-thin`}>
+                <p className={`${Styles.SubTitle} font-thin`}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a grav ida sapien. Suspendisse porttitor lectus at mauris
                   convallis pellen tesque. Aliquam in nisi .
                 </p>

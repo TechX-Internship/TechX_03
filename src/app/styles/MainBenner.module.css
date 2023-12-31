@@ -15,10 +15,10 @@
 }
 .SubTitle {
   color: #fff;
-  /* font-size: 0.875rem; */
+  font-size: 0.875rem;
   /* font-style: normal; */
   /* font-weight: 400; */
-  /* line-height: 1.125rem; */
+  line-height: normal;
 }
 .MeetBtn {
   padding: 0.6875rem 1.875rem;
@@ -150,8 +150,9 @@
     padding: 0;
   }
   .SubTitle {
-    /* font-size: 1.25rem; */
-    /* line-height: 1.875rem; */
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin: 1rem 0;
   }
   .DrMinbennerDp {
     width: 33.25rem;
@@ -186,6 +187,7 @@
   }
   .SubRatesOuter {
     gap: 6rem;
+    justify-content: space-evenly;
   }
   .HeartOuter,
   .SmileyOuter {

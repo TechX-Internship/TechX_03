@@ -18,8 +18,8 @@ const Services = () => {
         </div>
         <div className={`${Styles.CardsOuter} row w-100`}>
           <ServicesCard title="Immunizations" />
-          {/* <ServicesCard title="Pathology" /> */}
-          {/* <ServicesCard title="Precise Diagnosis" /> */}
+          <ServicesCard title="Pathology" />
+          <ServicesCard title="Precise Diagnosis" />
         </div>
         <ButtonSm BtnName="Read More" />
       </div>

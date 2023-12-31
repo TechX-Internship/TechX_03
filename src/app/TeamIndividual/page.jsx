@@ -12,7 +12,6 @@ import FooterBlue from "../componants/FooterBlue";
 const page = () => {
   return (
     <div>
-      <Header />
       <SubPageMainBenner Name="Team" />
 
       <div className="Container">
@@ -25,11 +24,11 @@ const page = () => {
               text ever since the 1500s, when an unknown printe.
             </p>
           </div>
-          <div className={Styles.ImageContainer}>
-            <div className="col-6">
+          <div className={`${Styles.ImageContainer} row`}>
+            <div className="col-lg-6">
               <Image className={Styles.Img} src={Img1} alt="" />
             </div>
-            <div className="col-6">
+            <div className="col-lg-6">
               <div className={Styles.DrDetailes}>
                 <h2 className={`${Styles.SubTitle} text-start`}>Dr. Ryan Levin</h2>
                 <p className={Styles.DrSubTitle}>Neurologist </p>
@@ -46,7 +45,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <p>
+          <p className={`${Styles.Text}`}>
             High blood pressure, also known as hypertension, affects millions worldwide. It is a condition that increases the risk of
             various health problems such as strokes, heart attacks, and more. While there are several well-known causes of hypertension,
             such as a poor diet, smoking and lack of exercise, there are other factors that can contribute to high blood pressure. In this
@@ -56,8 +55,6 @@ const page = () => {
           </p>
         </div>
       </div>
-
-      <FooterBlue />
     </div>
   );
 };
