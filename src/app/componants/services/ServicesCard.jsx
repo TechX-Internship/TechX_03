@@ -1,8 +1,8 @@
 import React from "react";
-import Styles from "../styles/ServicesCard.module.css";
+import Styles from "../../styles/ServicesCard.module.css";
 
 import ServicesSvg from "./ServicesSvg";
-import { BlueBtn } from "./Button";
+import { BlueBtn } from "../Button";
 
 const ServicesCard = ({ title }) => {
   return (

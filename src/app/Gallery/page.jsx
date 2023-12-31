@@ -1,12 +1,8 @@
 import React from "react";
 import Styles from "../styles/GalleryPage.module.css";
 
-import GalleryPhotos from "../componants/GalleryPhotos";
-
-import Header from "../componants/Header";
+import GalleryPhotos from "../componants/gallery/GalleryPhotos";
 import SubPageMainBenner from "../componants/SubPageMainBenner";
-import FooterBlue from "../componants/FooterBlue";
-
 const page = () => {
   return (
     <div>

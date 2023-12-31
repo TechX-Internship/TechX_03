@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import Styles from "../styles/ExpertsCard.module.css";
+import Styles from "../../styles/ExpertsCard.module.css";
 
-import Img1 from "../../../public/Expert1.png";
-import Img2 from "../../../public/Expert2.png";
-import Img3 from "../../../public/Expert3.png";
-import Img4 from "../../../public/Expert4.png";
+import Img1 from "../../../../public/Expert1.png";
+// import Img2 from "../../../public/Expert2.png";
+// import Img3 from "../../../public/Expert3.png";
+// import Img4 from "../../../public/Expert4.png";
 
 const ExpertsCard = () => {
   return (

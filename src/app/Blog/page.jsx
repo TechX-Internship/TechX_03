@@ -2,10 +2,7 @@ import React from "react";
 import Styles from "../styles/BlogPage.module.css";
 
 import BlogCard from "../componants/blog/BlogCard";
-
-import Header from "../componants/Header";
 import SubPageMainBenner from "../componants/SubPageMainBenner";
-import FooterBlue from "../componants/FooterBlue";
 
 const page = () => {
   return (

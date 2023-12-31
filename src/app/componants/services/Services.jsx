@@ -1,8 +1,8 @@
 import React from "react";
 
-import Styles from "../styles/Services.module.css";
+import Styles from "../../styles/Services.module.css";
 import ServicesCard from "./ServicesCard";
-import { ButtonSm } from "./Button";
+import { ButtonSm } from "../Button";
 
 const Services = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Img1 from "../../../public/Services1.png";
+import Img1 from "../../../../public/Services1.png";
 import ServicesSvg from "../componants/ServicesSvg";
-import Styles from "../styles/ServicesPage.module.css";
+import Styles from "../../styles/ServicesPage.module.css";
 
 const ServicesPageCard = () => {
   return (

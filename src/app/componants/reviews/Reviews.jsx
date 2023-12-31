@@ -1,8 +1,8 @@
 import React from "react";
 
-import Styles from "../styles/Reviews.module.css";
+import Styles from "../../styles/Reviews.module.css";
 import ReviewsCard from "./ReviewsCard";
-import { Button } from "./Button";
+import { Button } from "../Button";
 
 const Reviews = () => {
   return (

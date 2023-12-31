@@ -1,8 +1,7 @@
 import React from "react";
 import Styles from "../styles/TeamPage.module.css";
 
-import ExpertsCard from "../componants/ExpertsCard";
-// import Button from "../componants/Button";
+import ExpertsCard from "../componants/experts/ExpertsCard";
 import SubPageMainBenner from "../componants/SubPageMainBenner";
 import { Button } from "../componants/Button";
 

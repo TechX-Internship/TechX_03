@@ -1,8 +1,8 @@
 import React from "react";
 import GalleryPhotos from "./GalleryPhotos";
 
-import Styles from "../styles/Gallery.module.css";
-import { Button } from "./Button";
+import Styles from "../../styles/Gallery.module.css";
+import { Button } from "../Button";
 
 const Gallery = () => {
   return (

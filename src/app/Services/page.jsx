@@ -1,11 +1,8 @@
 import React from "react";
-import Image from "next/image";
 import Styles from "../styles/ServicesPage.module.css";
-import Img1 from "../../../public/Services1.png";
-import Img2 from "../../../public/Services2.png";
 
 import SubPageMainBenner from "../componants/SubPageMainBenner";
-import ServicesPageCard from "../componants/ServicesPageCard";
+import ServicesPageCard from "../componants/services/ServicesPageCard";
 
 const page = () => {
   return (

@@ -5,8 +5,8 @@ import Img1 from "../../../public/Rectangle 72.png";
 import Img2 from "../../../public/Rectangle 73.png";
 
 import SubPageMainBenner from "../componants/SubPageMainBenner";
-import AboutUs from "../componants/AboutUs";
-import AbloutPageCard from "../componants/AbloutPageCard";
+import AboutUs from "../componants/about/AboutUs";
+import AbloutPageCard from "../componants/about/AbloutPageCard";
 
 const page = () => {
   return (

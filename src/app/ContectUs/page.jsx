@@ -1,15 +1,10 @@
 import React from "react";
 import Styles from "../styles/ContectUs.module.css";
-
-import Header from "../componants/Header";
 import SubPageMainBenner from "../componants/SubPageMainBenner";
-
-import FooterBlue from "../componants/FooterBlue";
 
 const page = () => {
   return (
     <div>
-      <Header />
       <SubPageMainBenner Name="Contect Us" />
 
       <div className="Container">
@@ -17,18 +12,18 @@ const page = () => {
           <div className={Styles.Titles}>
             <h3 className={Styles.Title}>Get In Touch</h3>
             <p className={Styles.Text}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the <br /> industry s standard
-              dummy text ever since.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy
+              text ever since.
             </p>
           </div>
           <div className={Styles.Form}>
             <div className="row">
-              <div className="col-7">
+              <div className="col-lg-7">
                 <div className="row row-gap-4">
-                  <div className="col-6">
+                  <div className="col-lg-6">
                     <input className={Styles.Input} type="text" placeholder="First Holder" />
                   </div>
-                  <div className="col-6">
+                  <div className="col-lg-6">
                     <input className={Styles.Input} type="text" placeholder="Last Holder" />
                   </div>
                   <div className="col-12">
@@ -42,7 +37,7 @@ const page = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-5">
+              <div className="col-lg-5">
                 <div className={Styles.AddressDiv}>
                   <div className={Styles.Address}>
                     <h3 className={Styles.SubTitle}>Address</h3>
@@ -64,8 +59,6 @@ const page = () => {
           </div>
         </div>
       </div>
-
-      <FooterBlue />
     </div>
   );
 };

@@ -1,8 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Styles from "../styles/AboutPage.module.css";
+import Styles from "../../styles/AboutPage.module.css";
+// import Styles from "../styles/AboutPage.module.css";
 
-import Img1 from "../../../public/Rectangle 72.png";
+import Img1 from "../../../../public/Rectangle 72.png";
+// import Img1 from "../../../public/Rectangle 72.png";
 
 const AbloutPageCard = () => {
   return (

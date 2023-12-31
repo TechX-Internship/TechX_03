@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Styles from "../styles/ReviewsCard.module.css";
+import Styles from "../../styles/ReviewsCard.module.css";
 
-import Img1 from "../../../public/Reviews1.png";
-import Img2 from "../../../public/Reviews2.png";
-import Img3 from "../../../public/Reviews3.png";
+import Img1 from "../../../../public/Reviews1.png";
+// import Img2 from "../../../public/Reviews2.png";
+// import Img3 from "../../../public/Reviews3.png";
 
 const ReviewsCard = () => {
   return (

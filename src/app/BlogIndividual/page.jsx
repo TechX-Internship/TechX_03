@@ -3,13 +3,8 @@ import Styles from "../styles/BlogIndividual.module.css";
 import Image from "next/image";
 import Img1 from "../../../public/BlogIndividual1.png";
 
-// import BlogCard from "../componants/BlogCard";
-
-import Header from "../componants/Header";
 import SubPageMainBenner from "../componants/SubPageMainBenner";
-
 import BlogUpdateBy from "../componants/blog/BlogUpdateBy";
-import FooterBlue from "../componants/FooterBlue";
 
 const page = () => {
   return (

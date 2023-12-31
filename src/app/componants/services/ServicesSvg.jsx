@@ -1,5 +1,5 @@
 import React from "react";
-import Styles from "../styles/ServicesCard.module.css";
+import Styles from "../../styles/ServicesCard.module.css";
 import { Svg1 } from "@/assets/Icon";
 
 const ServicesSvg = ({ title }) => {
