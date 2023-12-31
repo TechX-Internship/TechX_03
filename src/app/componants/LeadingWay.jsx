@@ -1,6 +1,7 @@
 import React from "react";
 import Styles from "../styles/LeadingWay.module.css";
 import { Button } from "./Button";
+import { DarkBlueBtn } from "./Button";
 
 const LeadingWay = () => {
   return (
@@ -19,7 +20,7 @@ const LeadingWay = () => {
               dummy text ever since the 1500s, when an unknown printe.
             </h4>
             <div className={Styles.BtnDiv}>
-              <Button BtnName={"Get Free Consultatio"} color={"#1c396a"} />
+              <DarkBlueBtn BtnName={"Get Free Consultatio"} />
               <Button BtnName={"+2819 (4631)2930"} />
             </div>
           </div>

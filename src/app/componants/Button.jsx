@@ -5,10 +5,11 @@ export const HeaderButton = ({ BtnName }) => <button className={`${styles.Btn} d
 
 export const ButtonSm = ({ BtnName }) => <button className={`${styles.Btn} d-lg-none`}>{BtnName}</button>;
 
-export const Button = ({ BtnName, color }) => (
-  <button className={`${styles.Btn} `} style={{ backgroundColor: color }}>
-    {BtnName}
-  </button>
-);
+export const Button = ({ BtnName }) => <button className={`${styles.Btn} `}>{BtnName}</button>;
+export const DarkBlueBtn = ({ BtnName }) => <button className={`${styles.DarkBlueBtn}`}>{BtnName}</button>;
 
 export const BlueBtn = ({ BtnName }) => <button className={`${styles.BlueBtn}`}>{BtnName}</button>;
+
+{
+  /* <button className={`${styles.Btn} `} style={{ backgroundColor: color }}> */
+}

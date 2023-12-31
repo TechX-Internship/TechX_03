@@ -1,8 +1,6 @@
 .LeadingWayOuter {
   margin-top: 2rem;
   overflow: hidden;
-  /* height: 36rem; */
-
   background: #f5fbff;
   padding: 0.2rem 0;
 }
@@ -58,16 +56,12 @@
   z-index: 5;
   padding-top: 1rem;
   padding-bottom: 1rem;
-
-  /* display: flex; */
-  /* justify-content: center; */
 }
 .Title {
   color: #1c396a;
   text-align: center;
 
   font-size: 1.25rem;
-  /* font-size: 2.75rem; */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -75,7 +69,6 @@
 .Medical {
   color: #ff3e3d;
   font-size: 1.25rem;
-  /* font-size: 2.75rem; */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -85,20 +78,11 @@
   color: #7f7f7f;
   text-align: center;
   font-size: 0.875rem;
-  /* font-size: 1.25rem; */
   font-style: normal;
   font-weight: 400;
 
   line-height: 1.125rem;
   padding: 0.5rem 0 0.5rem;
-
-  /* width: 66.875rem; */
-}
-.Btn1 {
-  background: #1c396a;
-}
-.Btn2 {
-  background: #ff3e3d;
 }
 
 @media (min-width: 992px) {

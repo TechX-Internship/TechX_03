@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2.5rem;
+  gap: 1rem;
 }
 .Logo {
   width: 8.4375rem;
@@ -17,11 +17,15 @@
   flex-shrink: 0;
 }
 .PageLink {
-  /* color: #fc0606; */
   color: #7f7f7f;
-  /* font-family: Inter; */
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding: 1rem;
+  transition: all 0.3s linear;
+}
+.PageLink:hover,
+.PageLink:active {
+  color: #fc0606;
 }

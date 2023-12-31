@@ -21,7 +21,7 @@ const MainBenner = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a grav ida sapien. Suspendisse porttitor lectus at mauris
                   convallis pellen tesque. Aliquam in nisi .
                 </p>
-                <Button BtnName="Meet Our Specialis" />
+                <Button BtnName={`Meet Our Specialis -->`} />
               </div>
             </div>
             <div className="col-12 col-lg-7 pe-0 pe-lg-2">

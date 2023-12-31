@@ -1,6 +1,7 @@
 import React from "react";
 import Styles from "../../styles/Experts.module.css";
 import ExpertsCard from "./ExpertsCard";
+import { Button } from "../Button";
 
 const Experts = () => {
   return (
@@ -14,13 +15,13 @@ const Experts = () => {
             injected humour, or randomised words which don t look even slightly believable.
           </p>
         </div>
-        <div className="row py-2 py-lg-0 w-100 justify-content-center">
+        <div className="row mb-lg-4 py-2 py-lg-0 w-100 justify-content-center">
           <ExpertsCard />
           <ExpertsCard />
           <ExpertsCard />
           <ExpertsCard />
         </div>
-        <button className={Styles.Btn}>View More</button>
+        <Button BtnName={"View More"} />
       </div>
     </div>
   );
