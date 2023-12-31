@@ -5,7 +5,9 @@
   font-weight: 500;
   line-height: normal;
 }
-
+.DateText {
+  font-size: 0.75rem;
+}
 .Title {
   color: #1c396a;
   font-style: normal;
@@ -41,7 +43,8 @@
     letter-spacing: 0.0325rem;
     text-align: center;
   }
-  .SubTitle {
+  .SubTitle,
+  .DateText {
     font-size: 1.25rem;
     text-align: center;
   }

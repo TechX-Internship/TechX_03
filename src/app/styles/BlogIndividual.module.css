@@ -5,7 +5,7 @@
 
 .Titles {
   text-align: center;
-  /* padding: 0 15rem; */
+  padding: 0 1rem;
 }
 .Title {
   color: #ff3e3d;
@@ -18,7 +18,8 @@
 }
 .SubTitle {
   color: #162e55;
-  font-size: 2.75rem;
+
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -27,10 +28,11 @@
 .Text {
   color: #7f7f7f;
   text-align: left;
-  font-size: 1.25rem;
+
+  font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.875rem;
+  line-height: normal;
 
   /* opacity: 0.7; */
 }
@@ -50,7 +52,7 @@
 .ImageContainer {
   display: flex;
   gap: 2rem;
-  padding: 2rem;
+  padding: 1rem;
   margin: 4rem 0 0;
 }
 .Img {
@@ -58,7 +60,7 @@
 }
 
 .DateDiv {
-  width: 25rem;
+  width: 100%;
 }
 .Input {
   width: 100%;
@@ -76,7 +78,8 @@
   flex-shrink: 0;
 
   color: #fff;
-  font-size: 1.625rem;
+
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -90,9 +93,35 @@
 }
 .SearchLi {
   color: #7f7f7f;
-  font-size: 1.2rem;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   padding: 0.4rem 0;
+}
+
+@media (min-width: 992px) {
+  .TitleSearch {
+    font-size: 1.625rem;
+  }
+  .SearchLi {
+    font-size: 1.2rem;
+  }
+  .SubTitle {
+    font-size: 2.75rem;
+  }
+  .Text {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+  .Titles {
+    text-align: center;
+    /* padding: 0 15rem; */
+  }
+  .DateDiv {
+    width: 25rem;
+  }
+  .ImageContainer {
+    padding: 2rem;
+  }
 }

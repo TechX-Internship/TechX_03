@@ -18,12 +18,12 @@ const BlogUpdateBy = () => {
             </clipPath>
           </defs>
         </svg>
-        <span className="ps-1 fw-semibold">Jun 03,2023</span>
+        <span className={`ps-1 fw-semibold ${Styles.DateText}`}>Jun 03,2023</span>
       </div>
 
       <div className="">
-        <span className={`${Styles.ByAdmin} `}>Upload By :</span>
-        <span className=""> Admin</span>
+        <span className={`${Styles.ByAdmin} ${Styles.DateText}`}>Upload By :</span>
+        <span className={`${Styles.DateText}`}> Admin</span>
       </div>
     </div>
   );

@@ -10,7 +10,6 @@ import FooterBlue from "../componants/FooterBlue";
 const page = () => {
   return (
     <div>
-      <Header />
       <SubPageMainBenner Name="Gallery" />
 
       <div className="Container">
@@ -25,8 +24,6 @@ const page = () => {
           <GalleryPhotos />
         </div>
       </div>
-
-      <FooterBlue />
     </div>
   );
 };

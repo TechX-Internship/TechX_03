@@ -14,15 +14,14 @@ import FooterBlue from "../componants/FooterBlue";
 const page = () => {
   return (
     <div>
-      <Header />
       <SubPageMainBenner Name="Blog " />
 
       <div className="Container">
-        <div className={Styles.ImageContainer}>
-          <div className="col-6">
+        <div className={`${Styles.ImageContainer} row`}>
+          <div className="col-lg-6">
             <Image className={Styles.Img} src={Img1} alt="" />
           </div>
-          <div className="col-6">
+          <div className="col-lg-6">
             <div className={`${Styles.SearchMenu} p-2`}>
               <input className={Styles.Input} type="text" placeholder="Search" />
               <h3 className={Styles.TitleSearch}>Categories</h3>
@@ -42,7 +41,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className={Styles.Blog}>
+        <div className={`${Styles.Blog} col-lg-12`}>
           <div className={Styles.Titles}>
             <h2 className={`${Styles.SubTitle} text-start`}>How to Determine the Length of a Time -Out</h2>
             <div className={Styles.DateDiv}>
@@ -71,8 +70,6 @@ const page = () => {
           </div>
         </div>
       </div>
-
-      <FooterBlue />
     </div>
   );
 };

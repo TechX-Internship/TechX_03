@@ -2,16 +2,13 @@ import React from "react";
 import Styles from "../styles/TeamPage.module.css";
 
 import ExpertsCard from "../componants/ExpertsCard";
-import Button from "../componants/Button";
-
-import Header from "../componants/Header";
+// import Button from "../componants/Button";
 import SubPageMainBenner from "../componants/SubPageMainBenner";
-import FooterBlue from "../componants/FooterBlue";
+import { Button } from "../componants/Button";
 
 const page = () => {
   return (
     <div>
-      <Header />
       <SubPageMainBenner Name="Team" />
 
       <div className="Container">
@@ -43,8 +40,6 @@ const page = () => {
           <Button BtnName="Load More" />
         </div>
       </div>
-
-      <FooterBlue />
     </div>
   );
 };

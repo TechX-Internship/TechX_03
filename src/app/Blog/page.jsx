@@ -10,7 +10,6 @@ import FooterBlue from "../componants/FooterBlue";
 const page = () => {
   return (
     <div>
-      <Header />
       <SubPageMainBenner Name="Blog " />
 
       <div className="Container">
@@ -23,7 +22,7 @@ const page = () => {
               injected humour, or randomised words which don t look even slightly believable.
             </p>
           </div>
-          <div className="row">
+          <div className="row ps-2">
             <BlogCard />
             <BlogCard />
             <BlogCard />
@@ -36,8 +35,6 @@ const page = () => {
           </div>
         </div>
       </div>
-
-      <FooterBlue />
     </div>
   );
 };

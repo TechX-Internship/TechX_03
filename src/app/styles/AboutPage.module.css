@@ -14,8 +14,6 @@
 .Card {
   margin-top: 2rem;
   display: flex;
-  flex-wrap: wrap;
-  gap: 3rem;
   padding: 0 1rem;
 }
 
@@ -43,7 +41,7 @@
 .TextDiv {
   /* width: 48.625rem; */
   padding: 2rem 0;
-  /* padding-left: 2rem; */
+  padding-left: 2rem;
 }
 
 @media (min-width: 992px) {

@@ -5,11 +5,11 @@
 
 .Titles {
   text-align: center;
-  padding: 0 15rem;
+  padding: 0 1rem;
 }
 .Title {
   color: #ff3e3d;
-  font-size: 1.5rem;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -18,19 +18,21 @@
 }
 .SubTitle {
   color: #162e55;
-  font-size: 2.75rem;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-align: center;
+  margin: 1rem 0;
 }
 .Text {
   color: #7f7f7f;
   text-align: left;
-  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.875rem;
+
+  font-size: 0.875rem;
+  line-height: 1.125rem;
 
   opacity: 0.7;
 }
@@ -41,4 +43,20 @@
 }
 .cards {
   padding: 4rem 0;
+}
+
+@media (min-width: 992px) {
+  .Titles {
+    padding: 0 15rem;
+  }
+  .Title {
+    font-size: 1.5rem;
+  }
+  .SubTitle {
+    font-size: 2.75rem;
+  }
+  .Text {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
 }

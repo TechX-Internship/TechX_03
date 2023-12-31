@@ -2,9 +2,11 @@ import React from "react";
 import Image from "next/image";
 import Styles from "../styles/AboutPage.module.css";
 
+import Img1 from "../../../public/Rectangle 72.png";
+
 const AbloutPageCard = () => {
   return (
-    <div className={Styles.Card}>
+    <div className={`${Styles.Card} row`}>
       <Image className="col-lg-6" src={Img1} alt="" />
       <div className={`${Styles.TextDiv} col-lg-6`}>
         <span className={Styles.TitleSpan1}>Our</span>
