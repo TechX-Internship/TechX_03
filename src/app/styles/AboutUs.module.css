@@ -1,94 +1,99 @@
 .AboutUsOuter {
-  padding: 10rem 0;
-  display: flex;
+  padding: 2rem 0;
+
+  /* display: flex; */
 }
 .AboutUsImage {
   max-width: max-content !important;
-  width: 38.125rem;
-  height: 38.125rem;
-  /* flex-shrink: 0; */
+  /* width: 38.125rem;
+  height: 38.125rem; */
 
-  border-radius: 38.125rem;
-  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+  border-radius: 50%;
 }
 .AboutUsImageDiv {
   position: relative;
+  display: grid;
+  place-items: center;
 }
 .Years {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.Years {
-  width: 10.8125rem;
-  height: 10.8125rem;
-  flex-shrink: 0;
+  width: 4rem;
+  height: 4rem;
 
   background-color: #fffbfb;
   border-radius: 50%;
   display: grid;
   place-items: center;
+
+  position: absolute;
+  top: 10%;
+  right: 15%;
 }
 
 .YearCount {
   color: #ff3e3d;
-  font-size: 3.375rem;
-  font-style: normal;
+  font-size: 1.6rem;
   font-weight: 800;
-  line-height: normal;
   letter-spacing: 0.0675rem;
+  line-height: 1.2rem;
+  margin: 0;
 }
 .YearName {
   color: #ff3e3d;
-  font-size: 1.625rem;
-  font-style: normal;
+  font-size: 0.9rem;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: 0.0325rem;
+  line-height: 1.2rem;
+  margin: 0;
 }
 
 .AboutUsInfoDiv {
-  padding-left: 6rem;
-  padding-top: 6rem;
+  padding: 2rem 0;
+  text-align: center;
+  /* padding-left: 6rem; */
+  /* padding-top: 6rem; */
 }
 .AboutInfoTitle {
   color: #ff3e3d;
-  text-align: center;
-  font-size: 1.5rem;
+  font-size: 0.875rem;
+  /* font-size: 1.5rem; */
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 2.25rem */
 }
 .AboutInfoSubtitle {
   color: #162e55;
-  font-size: 2.75rem;
+  font-size: 1.25rem;
+  /* font-size: 2.75rem; */
+
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 .AboutInfoText {
   color: #7f7f7f;
-  font-size: 1.25rem;
-  font-style: normal;
+  font-size: 0.875rem;
+  /* font-size: 1.25rem; */
+  line-height: 1.25rem;
+  /* font-style: normal; */
   font-weight: 400;
-  line-height: 1.875rem; /* 150% */
+  /* line-height: 1.875rem;  */
   padding-top: 1rem;
+  text-align: center;
 }
 .AboutInfoBlog {
   display: flex;
   padding: 2rem 0;
 }
-.Ellipse4 {
-  width: 5.4375rem;
-  height: 5.4375rem;
-  flex-shrink: 0;
+.SmImg {
+  width: 4.5rem;
+  height: 4.5rem;
 
-  border-radius: 5.4375rem;
-  /* background: url(<path-to-image>), lightgray -0.902px 0.808px / 100% 150% no-repeat, #d9d9d9; */
+  border-radius: 50%;
 }
 .AboutInfoBlogText {
   color: rgba(127, 127, 127, 0.58);
-  font-size: 1.125rem;
+  font-size: 1rem;
+  /* font-size: 1.125rem; */
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -96,7 +101,8 @@
 }
 .AboutInfoBlogBoldtext {
   color: #1c396a;
-  font-size: 1.125rem;
+  font-size: 1rem;
+  /* font-size: 1.125rem; */
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -118,4 +124,55 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+@media (min-width: 992px) {
+  .AboutUsOuter {
+    padding: 10rem 0;
+  }
+  .AboutUsInfoDiv {
+    padding: 2rem 1rem;
+    text-align: left;
+    padding-left: 6rem;
+    padding-top: 6rem;
+  }
+  .AboutInfoTitle {
+    font-size: 1.5rem;
+  }
+  .AboutInfoSubtitle {
+    font-size: 2.75rem;
+  }
+  .AboutUsImage {
+    width: 38.125rem;
+    height: 38.125rem;
+  }
+  .Years {
+    width: 10.8125rem;
+    height: 10.8125rem;
+
+    /* top: 10%; */
+    /* right: 15%; */
+  }
+  .YearCount {
+    font-size: 3.375rem;
+    line-height: normal;
+  }
+  .YearName {
+    font-size: 1.625rem;
+    line-height: normal;
+  }
+  .AboutInfoText {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    text-align: left;
+  }
+  .SmImg {
+    width: 5.4375rem;
+    height: 5.4375rem;
+  }
+  .AboutInfoBlogText {
+    font-size: 1.125rem;
+  }
+  .AboutInfoBlogBoldtext {
+    font-size: 1.125rem;
+  }
 }

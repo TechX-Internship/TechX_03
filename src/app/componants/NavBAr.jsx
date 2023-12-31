@@ -3,7 +3,7 @@ import styles from "../styles/Header.module.css";
 
 const NavBAr = () => {
   return (
-    <nav>
+    <nav className="d-none d-lg-block">
       <ul className={styles.Navbar}>
         <li class={styles.PageLink} onClick={"/"}>
           Home

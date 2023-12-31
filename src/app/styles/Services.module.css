@@ -1,21 +1,24 @@
 .Services {
+  text-align: center;
 }
 .ServicesTitles {
   text-align: center;
-  padding: 0 15rem;
+  padding: 0 1rem;
 }
-.ServicesTitle {
+.MainTitle {
   color: #ff3e3d;
-  font-size: 1.5rem;
+  font-size: 0.875rem;
+  /* font-size: 1.5rem; */
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.03rem;
 }
-.ServicesSubTitle {
+.MainSubtitle {
   color: #162e55;
   text-align: center;
-  font-size: 2.75rem;
+  font-size: 1.25rem;
+  /* font-size: 2.75rem; */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -23,17 +26,35 @@
 }
 .ServicesText {
   color: #7f7f7f;
-  text-align: center;
-  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.875rem;
 
   opacity: 0.7;
+
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding-top: 1rem;
+  text-align: center;
 }
 
 .CardsOuter {
-  display: flex;
   padding: 2.5rem 0;
   gap: 1.5rem;
+}
+@media (min-width: 992px) {
+  .ServicesTitles {
+    padding: 0 15rem;
+  }
+  .MainTitle {
+    font-size: 1.5rem;
+  }
+  .MainSubtitle {
+    font-size: 2.75rem;
+    padding: 2rem 8rem;
+  }
+  .ServicesText {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    text-align: left;
+  }
 }

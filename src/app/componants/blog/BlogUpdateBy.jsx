@@ -1,5 +1,5 @@
 import React from "react";
-import Styles from "../styles/BlogCard.module.css";
+import Styles from "../../styles/BlogCard.module.css";
 
 const BlogUpdateBy = () => {
   return (
@@ -18,12 +18,12 @@ const BlogUpdateBy = () => {
             </clipPath>
           </defs>
         </svg>
-        <span className="px-3">Jun 03,2023</span>
+        <span className="ps-1 fw-semibold">Jun 03,2023</span>
       </div>
 
       <div className="">
-        <span className={Styles.ByAdmin}>Upload By :</span>
-        <span> Admin</span>
+        <span className={`${Styles.ByAdmin} `}>Upload By :</span>
+        <span className=""> Admin</span>
       </div>
     </div>
   );

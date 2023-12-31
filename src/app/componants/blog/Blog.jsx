@@ -1,6 +1,7 @@
 import React from "react";
-import Styles from "../styles/Blog.module.css";
+import Styles from "../../styles/Blog.module.css";
 import BlogCard from "./BlogCard";
+import { Button } from "../Button";
 
 const Blog = () => {
   return (
@@ -14,12 +15,13 @@ const Blog = () => {
             injected humour, or randomised words which don t look even slightly believable.
           </p>
         </div>
-        <div className="row">
+        <div className="row w-100 ps-3">
           <BlogCard />
-          <BlogCard />
-          <BlogCard />
+          {/* <BlogCard /> */}
+          {/* <BlogCard /> */}
         </div>
-        <button className={Styles.Btn}>Read More</button>
+        <Button BtnName="View More" />
+        {/* <button className={Styles.Btn}>Read More</button> */}
       </div>
     </div>
   );

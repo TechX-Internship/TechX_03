@@ -2,17 +2,18 @@ import React from "react";
 import Styles from "../styles/ServicesCard.module.css";
 
 import ServicesSvg from "./ServicesSvg";
+import { BlueBtn } from "./Button";
 
 const ServicesCard = ({ title }) => {
   return (
-    <div className={Styles.W3}>
+    <div className="col-lg-3 ">
       <div className={Styles.SCard}>
         <ServicesSvg title={title} />
-        <div className={Styles.SCardBody}>
+        <div className="text-center">
           <p className={Styles.SCardText}>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
           </p>
-          <button className={Styles.SCardBtn}> Read More</button>
+          <BlueBtn BtnName="Read More" />
         </div>
       </div>
     </div>

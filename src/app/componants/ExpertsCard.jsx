@@ -9,11 +9,13 @@ import Img4 from "../../../public/Expert4.png";
 
 const ExpertsCard = () => {
   return (
-    <div className={`col-3 text-center ${Styles.Card}`}>
-      <Image src={Img1} alt="" />
+    <div className={`col-9 col-lg-3 text-center`}>
+      <div className={`${Styles.Card}`}>
+        <Image src={Img1} alt="" />
 
-      <h4 className={Styles.Title}>Dr. Barlione Croudo</h4>
-      <p className={Styles.SubTitle}>Neurologist </p>
+        <h4 className={Styles.Title}>Dr. Barlione Croudo</h4>
+        <p className={Styles.SubTitle}>Neurologist </p>
+      </div>
     </div>
   );
 };

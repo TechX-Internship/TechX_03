@@ -8,7 +8,7 @@ import Img1 from "../../../public/BlogIndividual1.png";
 import Header from "../componants/Header";
 import SubPageMainBenner from "../componants/SubPageMainBenner";
 
-import BlogUpdateBy from "../componants/BlogUpdateBy";
+import BlogUpdateBy from "../componants/blog/BlogUpdateBy";
 import FooterBlue from "../componants/FooterBlue";
 
 const page = () => {

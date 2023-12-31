@@ -8,7 +8,7 @@ const FooterBlue = () => {
     <div className={Styles.FooterBlue}>
       <div className="Container">
         <div className={Styles.Inner}>
-          <div className={Styles.BlueLeft}>
+          <div className={`${Styles.BlueLeft} col-lg-5`}>
             <Image src={Logo} alt="" />
             <p className={Styles.Address}>207,208 Vasupujya Complex, Opp. Trinity Mall, Adajan, Surat - 395009, Gujarat,India</p>
             <div className={Styles.SocDiv}>
@@ -26,7 +26,7 @@ const FooterBlue = () => {
               </svg>
             </div>
           </div>
-          <div className={Styles.BlueRight}>
+          <div className={`${Styles.BlueRight} col-lg-7`}>
             <ul>
               <li className={Styles.Ul}>Pages</li>
               <li className={Styles.Li}>About Us</li>

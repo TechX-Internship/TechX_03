@@ -2,6 +2,7 @@ import React from "react";
 import GalleryPhotos from "./GalleryPhotos";
 
 import Styles from "../styles/Gallery.module.css";
+import { Button } from "./Button";
 
 const Gallery = () => {
   return (
@@ -13,7 +14,8 @@ const Gallery = () => {
           id diam hendrerit vehicula.
         </p>
         <GalleryPhotos />
-        <button className={Styles.btn}>View More</button>
+        <Button BtnName="View More" />
+        {/* <button className={Styles.btn}>View More</button> */}
       </div>
     </div>
   );

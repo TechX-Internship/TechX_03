@@ -1,5 +1,6 @@
 import React from "react";
 import Styles from "../styles/LeadingWay.module.css";
+import { Button } from "./Button";
 
 const LeadingWay = () => {
   return (
@@ -18,8 +19,8 @@ const LeadingWay = () => {
               dummy text ever since the 1500s, when an unknown printe.
             </h4>
             <div className={Styles.BtnDiv}>
-              <button className={`${Styles.Btn1} ${Styles.Btn}`}>Get Free Consultation</button>
-              <button className={`${Styles.Btn2} ${Styles.Btn}`}>+2819 (4631)2930</button>
+              <Button BtnName={"Get Free Consultatio"} color={"#1c396a"} />
+              <Button BtnName={"+2819 (4631)2930"} />
             </div>
           </div>
         </div>

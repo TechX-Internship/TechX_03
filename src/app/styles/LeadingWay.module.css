@@ -1,7 +1,7 @@
 .LeadingWayOuter {
+  margin-top: 2rem;
   overflow: hidden;
-  height: 36rem;
-  flex-shrink: 0;
+  /* height: 36rem; */
 
   background: #f5fbff;
   padding: 0.2rem 0;
@@ -18,8 +18,8 @@
   position: absolute;
 }
 .Ring {
-  width: 75.375rem;
-  height: 71.75rem;
+  width: 20rem;
+  aspect-ratio: 1/1;
   flex-shrink: 0;
 
   border-radius: 75.375rem;
@@ -33,8 +33,8 @@
 }
 .Ring::after {
   content: "";
-  width: 62.0625rem;
-  height: 62.1875rem;
+  width: 85%;
+  height: 85%;
   flex-shrink: 0;
   border-radius: 62.1875rem;
   background: linear-gradient(0deg, #def3ff 0%, #def3ff 100%);
@@ -43,8 +43,8 @@
 }
 .Ring::before {
   content: "";
-  width: 49.625rem;
-  height: 46.5625rem;
+  width: 70%;
+  height: 70%;
   flex-shrink: 0;
   border-radius: 49.625rem;
   background: linear-gradient(0deg, #d2efff 0%, #d2efff 100%);
@@ -56,7 +56,8 @@
   position: relative;
   /* bottom: 0; */
   z-index: 5;
-  padding-top: 9rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 
   /* display: flex; */
   /* justify-content: center; */
@@ -64,14 +65,17 @@
 .Title {
   color: #1c396a;
   text-align: center;
-  font-size: 2.75rem;
+
+  font-size: 1.25rem;
+  /* font-size: 2.75rem; */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 .Medical {
   color: #ff3e3d;
-  font-size: 2.75rem;
+  font-size: 1.25rem;
+  /* font-size: 2.75rem; */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -80,34 +84,41 @@
 .SubTitle {
   color: #7f7f7f;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 0.875rem;
+  /* font-size: 1.25rem; */
   font-style: normal;
   font-weight: 400;
-  line-height: 1.875rem; /* 150% */
 
-  padding: 2rem 0 4rem;
+  line-height: 1.125rem;
+  padding: 0.5rem 0 0.5rem;
 
   /* width: 66.875rem; */
-}
-
-.Btn {
-  display: inline-flex;
-  padding: 0.875rem 1.5rem;
-  align-items: center;
-  gap: 0.625rem;
-
-  border-radius: 0.625rem;
-
-  color: #fff;
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  margin: 0 0.5rem;
 }
 .Btn1 {
   background: #1c396a;
 }
 .Btn2 {
   background: #ff3e3d;
+}
+
+@media (min-width: 992px) {
+  .Title,
+  .Medical {
+    font-size: 2.75rem;
+  }
+  .SubTitle {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+
+  .Ring {
+    width: 75.375rem;
+    height: 71.75rem;
+  }
+  .LeadingWayInner {
+    padding-top: 9rem;
+  }
+  .SubTitle {
+    padding: 2rem 0 4rem;
+  }
 }

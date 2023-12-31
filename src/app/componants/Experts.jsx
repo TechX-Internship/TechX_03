@@ -14,11 +14,11 @@ const Experts = () => {
             injected humour, or randomised words which don t look even slightly believable.
           </p>
         </div>
-        <div className="row">
+        <div className="row py-2 py-lg-0 w-100 justify-content-center">
           <ExpertsCard />
-          <ExpertsCard />
-          <ExpertsCard />
-          <ExpertsCard />
+          {/* <ExpertsCard /> */}
+          {/* <ExpertsCard /> */}
+          {/* <ExpertsCard /> */}
         </div>
         <button className={Styles.Btn}>View More</button>
       </div>
