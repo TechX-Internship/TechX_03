@@ -9,7 +9,7 @@
 }
 .Title {
   color: #ff3e3d;
-  font-size: 1.5rem;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -18,7 +18,7 @@
 }
 .SubTitle {
   color: #162e55;
-  font-size: 2.75rem;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -41,4 +41,13 @@
 }
 .cards {
   padding: 4rem 0;
+}
+
+@media (min-width: 992px) {
+  .Title {
+    font-size: 0.875rem;
+  }
+  .SubTitle {
+    font-size: 2.75rem;
+  }
 }
