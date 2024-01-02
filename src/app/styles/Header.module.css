@@ -26,6 +26,6 @@
   transition: all 0.3s linear;
 }
 .PageLink:hover,
-.PageLink:active {
+.isActive {
   color: #fc0606;
 }

@@ -1,30 +1,45 @@
 import React from "react";
 import styles from "../styles/Header.module.css";
+import Link from "next/link";
 
-const NavBAr = () => {
+const NavBAr = ({ pathName }) => {
   return (
     <nav className="d-none d-lg-block">
       <ul className={styles.Navbar}>
         <li class={styles.PageLink} onClick={"/"}>
-          <a href={`/`}>Home</a>
+          <Link className={`${pathName === "/" ? styles.isActive : ""}`} href={`/`}>
+            Home
+          </Link>
         </li>
         <li class={styles.PageLink}>
-          <a href={`/about`}>About Us</a>
+          <Link className={`${pathName === "/about" ? styles.isActive : ""}`} href={`/about`}>
+            About Us
+          </Link>
         </li>
         <li class={styles.PageLink}>
-          <a href={`/services`}>Services</a>
+          <Link className={`${pathName === "/services" ? styles.isActive : ""}`} href={`/services`}>
+            Services
+          </Link>
         </li>
         <li class={styles.PageLink}>
-          <a href={`/gallery`}>Gallery</a>
+          <Link className={`${pathName === "/gallery" ? styles.isActive : ""}`} href={`/gallery`}>
+            Gallery
+          </Link>
         </li>
         <li class={styles.PageLink}>
-          <a href={`/blog`}>Blog</a>
+          <Link className={`${pathName === "/blog" ? styles.isActive : ""}`} href={`/blog`}>
+            Blog
+          </Link>
         </li>
         <li class={styles.PageLink}>
-          <a href={`/team`}>Team</a>
+          <Link className={`${pathName === "/team" ? styles.isActive : ""}`} href={`/team`}>
+            Team
+          </Link>
         </li>
         <li class={styles.PageLink}>
-          <a href={`/contactUs`}>Contacts Us</a>
+          <Link className={`${pathName === "/contactUs" ? styles.isActive : ""}`} href={`/contactUs`}>
+            Contacts Us
+          </Link>
         </li>
       </ul>
     </nav>
