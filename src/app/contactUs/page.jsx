@@ -5,7 +5,7 @@ import SubPageMainBenner from "../componants/SubPageMainBenner";
 const page = () => {
   return (
     <div>
-      <SubPageMainBenner Name="Contect Us" />
+      <SubPageMainBenner Name="Contact Us" />
 
       <div className="Container">
         <div className={Styles.ContectUsInner}>
