@@ -6,14 +6,26 @@ const NavBAr = () => {
     <nav className="d-none d-lg-block">
       <ul className={styles.Navbar}>
         <li class={styles.PageLink} onClick={"/"}>
-          Home
+          <a href={`/`}>Home</a>
         </li>
-        <li class={styles.PageLink}>About Us</li>
-        <li class={styles.PageLink}>Services</li>
-        <li class={styles.PageLink}>Gallery</li>
-        <li class={styles.PageLink}>Blog</li>
-        <li class={styles.PageLink}>Team</li>
-        <li class={styles.PageLink}>Contacts Us</li>
+        <li class={styles.PageLink}>
+          <a href={`/about`}>About Us</a>
+        </li>
+        <li class={styles.PageLink}>
+          <a href={`/services`}>Services</a>
+        </li>
+        <li class={styles.PageLink}>
+          <a href={`/gallery`}>Gallery</a>
+        </li>
+        <li class={styles.PageLink}>
+          <a href={`/blog`}>Blog</a>
+        </li>
+        <li class={styles.PageLink}>
+          <a href={`/team`}>Team</a>
+        </li>
+        <li class={styles.PageLink}>
+          <a href={`/contactUs`}>Contacts Us</a>
+        </li>
       </ul>
     </nav>
   );
